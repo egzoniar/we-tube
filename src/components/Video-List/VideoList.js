@@ -1,14 +1,17 @@
-import React from 'react'
-import { View, Text } from 'react-native'
+import React, { useRef, useEffect, useState } from 'react'
+import { connect } from 'react-redux';
 import { FlatList } from 'react-native-gesture-handler';
+import { useFocusEffect } from '@react-navigation/native'
 import Header from '../../components/Header/Header';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import HomeItem from '../../components/Home-Item/HomeItem'
+import { toggleCanScrollToTop, toggleScrollToTop } from '../../redux/home/home.actions';
 
 
 
 const VideoList = props => {
-  const { videos } = props
+  const { videos, canScrollToTop, setCanScrollToTop, scrollToTop, setScrollToTop } = props
+  const flatListRef = useRef();
 
   const renderItem = ({ item, index }) => {
     const navigation = props.nav
@@ -30,15 +33,6 @@ const VideoList = props => {
     //   imageUrl: thumbnails.high.url
     // }
 
-    if (index === 0) {
-      return (
-        <TouchableWithoutFeedback
-          onPress={() => navigation.navigate('Player', { videoId: "0NyQTqpsh_8" })}>
-          <Header title="WeTube" />
-          <HomeItem {...prps} />
-        </TouchableWithoutFeedback>
-      )
-    }
     return (
       <TouchableWithoutFeedback
         onPress={() => navigation.navigate('Player', { videoId })}>
@@ -47,15 +41,57 @@ const VideoList = props => {
     )
   }
 
+  useEffect(() => {
+    if (scrollToTop) {
+      setScrollToTop()
+      flatListRef.current.scrollToIndex({ index: 0, animated: true })
+    }
+  }, [scrollToTop])
+
+  useFocusEffect(
+    React.useCallback(() => {
+      // Do something when the screen is focused
+
+      return () => {
+        // Do something when the screen is unfocused
+        // Useful for cleanup functions
+        console.log('hini', canScrollToTop)
+        setCanScrollToTop(false)
+        console.log('VideoList: unfocused')
+      };
+    }, [])
+  );
+
+  const toggleTopArrow = y => {
+    if (y > 1000 && !canScrollToTop)
+      setCanScrollToTop(true)
+    else if (y <= 100 && canScrollToTop) {
+      setCanScrollToTop(false)
+    }
+  }
+
   return (
     <FlatList
       showsVerticalScrollIndicator={false}
       data={videos}
       keyExtractor={item => item.id}
+      ListHeaderComponent={() => <Header title="WeTube" />}
       // keyExtractor={item => item.id.videoId}
       renderItem={renderItem}
+      ref={flatListRef}
+      onScroll={e => toggleTopArrow(e.nativeEvent.contentOffset.y)}
     />
   )
 }
 
-export default VideoList
+const mapStateToProps = state => ({
+  canScrollToTop: state.home.canScrollToTop,
+  scrollToTop: state.home.scrollToTop
+})
+
+const mapDispatchToProps = dispatch => ({
+  setCanScrollToTop: bool => dispatch(toggleCanScrollToTop(bool)),
+  setScrollToTop: () => dispatch(toggleScrollToTop())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(VideoList)

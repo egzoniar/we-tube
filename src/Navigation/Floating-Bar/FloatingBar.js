@@ -1,13 +1,15 @@
-import React, { useState } from 'react'
-import { View, Text, TouchableOpacity } from 'react-native';
+import React from 'react'
+import { connect } from 'react-redux';
+import { View, TouchableOpacity } from 'react-native';
 import Icon from '@expo/vector-icons/MaterialCommunityIcons'
 
 import styles from './floating-bar.styles'
 
 import StyleGuide from '../../components/StyleGuide'
+import { toggleScrollToTop } from '../../redux/home/home.actions';
 const palette = StyleGuide.palette
 
-const FloatingBar = ({ state, descriptors, navigation }) => {
+const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScrollToTop }) => {
 
   return (
     <View style={styles.container}>
@@ -59,14 +61,23 @@ const FloatingBar = ({ state, descriptors, navigation }) => {
           </TouchableOpacity>
         );
       })}
-      <TouchableOpacity
+      {(canScrollToTop) ? <TouchableOpacity
         accessibilityRole="button"
+        onPress={() => setScrollToTop()}
         style={{ ...styles.tab, backgroundColor: palette.accent2 }}
       >
         <Icon name='arrow-up-thick' size={22} style={{ ...styles.icon, color: palette.accent3 }} />
-      </TouchableOpacity>
+      </TouchableOpacity> : null}
     </View>
   );
 }
 
-export default FloatingBar;
+const mapStateToProps = state => ({
+  canScrollToTop: state.home.canScrollToTop,
+})
+
+const mapDispatchToProps = dipatch => ({
+  setScrollToTop: () => dipatch(toggleScrollToTop())
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(FloatingBar);
