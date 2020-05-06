@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Youtube Clone",
-    "slug": "youtube-clone",
+    "name": "WeTube",
+    "slug": "WeTube",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [

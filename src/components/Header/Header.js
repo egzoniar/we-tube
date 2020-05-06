@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { View, Text, TextInput } from 'react-native';
-import Icon from '@expo/vector-icons/MaterialIcons';
-import { TouchableOpacity } from 'react-native-gesture-handler';
+
+import { connect } from 'react-redux'
+import { setSearchTerm } from '../../redux/home/home.actions'
 
 import SearchBar from '../Search-Bar/SearchBar'
 
 import styles from './header.styles'
 
-const ICON_SIZE = 33
+const Header = ({ title, setSearchTerm, searchTerm }) => {
 
-const Header = ({ title }) => {
   const [searchActive, setSearchActive] = useState(false)
   const [text, setText] = useState('')
 
@@ -18,10 +18,18 @@ const Header = ({ title }) => {
   const toggleSearchBar = () => {
     if (searchActive) {
       setSearchActive(!searchActive)
+      setSearchTerm('')
       setText('')
     }
     else setSearchActive(!searchActive)
   }
+
+  useEffect(() => {
+    if (searchTerm !== '') {
+      setSearchActive(true)
+      setText(searchTerm)
+    }
+  }, [])
 
   return (
     <View style={styles.header}>
@@ -34,6 +42,7 @@ const Header = ({ title }) => {
           searchActive={searchActive}
           toggle={toggleSearchBar}
           text={text}
+          setSearchTerm={() => setSearchTerm(text)}
           handleSearchText={handleSearchText}
         />
       </View>
@@ -41,4 +50,12 @@ const Header = ({ title }) => {
   )
 }
 
-export default Header;
+const mapDispatchToProps = dispatch => ({
+  setSearchTerm: term => dispatch(setSearchTerm(term))
+})
+
+const mapStateToProps = state => ({
+  searchTerm: state.home.searchTerm
+})
+
+export default connect(mapStateToProps, mapDispatchToProps)(Header);
