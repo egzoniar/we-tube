@@ -34,6 +34,10 @@ const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScroll
           if (!isFocused && !event.defaultPrevented) {
             navigation.navigate(route.name);
           }
+          else if (route.name === 'Home') {
+            if (canScrollToTop)
+              setScrollToTop()
+          }
         };
 
         let iconName;
@@ -61,13 +65,13 @@ const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScroll
           </TouchableOpacity>
         );
       })}
-      {(canScrollToTop) ? <TouchableOpacity
+      {/* {(canScrollToTop) ? <TouchableOpacity
         accessibilityRole="button"
         onPress={() => setScrollToTop()}
         style={{ ...styles.tab, backgroundColor: palette.accent2 }}
       >
         <Icon name='arrow-up-thick' size={22} style={{ ...styles.icon, color: palette.accent3 }} />
-      </TouchableOpacity> : null}
+      </TouchableOpacity> : null} */}
     </View>
   );
 }

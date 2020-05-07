@@ -15,23 +15,15 @@ const VideoList = props => {
 
   const renderItem = ({ item, index }) => {
     const navigation = props.nav
-    // const { channelTitle, title, thumbnails } = item.snippet
-    // const videoId = item.id
-    const videoId = "jhQPasMN5WA"
-    const { channel_name, title, imageUrl } = item
-
+    const { channelTitle, title, thumbnails } = item.snippet
+    const { videoId } = item.id
 
     const prps = {
-      title,
-      channel_name,
-      imageUrl
+      navigate: navigation.navigate,
+      title, videoId,
+      channel_name: channelTitle,
+      imageUrl: thumbnails.high.url
     }
-    // const prps = {
-    //   navigate: navigation.navigate,
-    //   title, videoId,
-    //   channel_name: channelTitle,
-    //   imageUrl: thumbnails.high.url
-    // }
 
     return (
       <TouchableWithoutFeedback
@@ -55,7 +47,6 @@ const VideoList = props => {
       return () => {
         // Do something when the screen is unfocused
         // Useful for cleanup functions
-        console.log('hini', canScrollToTop)
         setCanScrollToTop(false)
         console.log('VideoList: unfocused')
       };
@@ -74,9 +65,9 @@ const VideoList = props => {
     <FlatList
       showsVerticalScrollIndicator={false}
       data={videos}
-      keyExtractor={item => item.id}
+      // keyExtractor={item => item.id}
       ListHeaderComponent={() => <Header title="WeTube" />}
-      // keyExtractor={item => item.id.videoId}
+      keyExtractor={item => item.id.videoId}
       renderItem={renderItem}
       ref={flatListRef}
       onScroll={e => toggleTopArrow(e.nativeEvent.contentOffset.y)}

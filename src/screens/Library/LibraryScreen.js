@@ -14,7 +14,7 @@ import { DATA } from '../Home/home.data'
 const LibraryScreen = props => {
   return (
     <View style={styles.container}>
-      <FlatList
+      {/* <FlatList
         showsVerticalScrollIndicator={false}
         data={DATA}
         keyExtractor={item => item.id}
@@ -44,8 +44,8 @@ const LibraryScreen = props => {
           }
           return <HomeItem {...prps} />
         }}
-      />
-      {/* <EmptyList /> */}
+      /> */}
+      <EmptyList />
     </View>
   )
 }

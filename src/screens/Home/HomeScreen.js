@@ -23,15 +23,23 @@ const HomeScreen = props => {
       })
     )
     const json = await response.json();
-    // setVideos(json['items']);
-    setVideos(DATA)
-    setLoadedVideos(DATA)
+    setVideos(json['items'])
+    if (searchTerm === '')
+      setLoadedVideos(json['items'])
   };
 
   useEffect(() => {
-    if (loadedVideos.length > 0)
-      setVideos(loadedVideos)
-    else fetchHomeData()
+    if (loadedVideos.length > 0) {
+      if (searchTerm === '') {
+        console.log('load from memory')
+        setVideos(loadedVideos)
+      }
+      else fetchHomeData()
+    }
+    else {
+      console.log('fetch from api...')
+      fetchHomeData()
+    }
   }, [searchTerm])
 
   return (

@@ -9,13 +9,11 @@ const INITIAL_STATE = {
 const homeReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
     case HomeActionTypes.TOGGLE_CAN_SCROLL_TO_TOP:
-      console.log('TOGGLE_CAN_SCROLL_TO_TOP', !state.canScrollToTop)
       return {
         ...state,
         canScrollToTop: action.payload
       }
     case HomeActionTypes.TOGGLE_SCROLL_TO_TOP:
-      console.log('state.scrollToTop', state.scrollToTop)
       return {
         ...state,
         scrollToTop: !state.scrollToTop

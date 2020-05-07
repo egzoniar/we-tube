@@ -15,18 +15,6 @@ const PlayerScreen = ({ route }) => {
     setId(route.params.videoId)
   }, [route.params.videoId])
 
-  useFocusEffect(
-    React.useCallback(() => {
-      // Do something when the screen is focused
-
-      return () => {
-        // Do something when the screen is unfocused
-        // Useful for cleanup functions
-        //setId('')
-      };
-    }, [])
-  );
-
   return (
     <View style={styles.container}>
       {id ? <WebView
