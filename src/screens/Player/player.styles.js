@@ -8,13 +8,18 @@ const { width, height } = Dimensions.get('window')
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: palette.primary
+    // borderWidth: 1, borderColor: 'red',
+    backgroundColor: palette.primary,
+    paddingTop: 30,
+    paddingBottom: 70
+  },
+  text: {
+    // borderWidth: 1, borderColor: 'red',
   },
   webView: {
-    width,
-    height: 100
+    width
   }
 })
 

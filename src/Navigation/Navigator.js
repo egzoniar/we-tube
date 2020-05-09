@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native'
-import { NavigationContainer, DefaultTheme } from '@react-navigation/native';
+import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 import HomeScreen from '../screens/Home/HomeScreen';

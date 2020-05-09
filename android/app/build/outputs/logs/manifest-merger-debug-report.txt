@@ -1,0 +1,597 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:react-native-video] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-video\android-exoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-permissions] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-react-native-adapter] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_masked-view] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-full-screen] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-full-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-gesture-handler] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-safe-area-context] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-23:12
+MERGED from [:react-native-youtube] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-youtube\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-47:12
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\8b3d0bb88865f50c87c3871be9fcbce5\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\e291bf99913f76771c056da2eff12b96\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\047214addb6619ff6914d2d0a7344e25\AndroidManifest.xml:17:1-24:12
+MERGED from [:expo-app-loader-provider] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-error-recovery] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\56b6504f1a7c1f165e0da70385257ca1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\exoplayer-2.9.3.aar\7f29b70f3cc1b8fdae246d5c18c19b52\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-extension-okhttp-2.9.3.aar\d0c5fdb986d71e6da1d67ed241e6739d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-dash-2.9.3.aar\22e10c130fb3b20ce23b2834839fe8ee\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-hls-2.9.3.aar\4d721be5d4c71fa2bd617bc7dff63019\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-smoothstreaming-2.9.3.aar\8af7cbb4064096935c2ee5cf249f7266\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-ui-2.9.3.aar\197f69c5e5e51a522682d1110050c48e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.3.aar\6f5b10152cd4e581fd2ef683720c0e46\AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\0826368ed3a24ffbbdcb5f04b0d1bad4\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\d5a84f745f03d487b5d4eaedfcb2908f\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\5d951076cc3ceb45cab1b84c49b6ae9f\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\b07465f6d3db4995e4d11f27851ec0b3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\c7a432098b7414cf6a4f43647e115f42\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\b78846d197d94dd412fa02596dd53777\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\81f0c9510bf11210ff55af2818ac8763\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\7e9fe2fcfa3d3ec9c4422790abe24f38\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\469c170723720033a91319d3451990aa\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\9e9e1103ab5b3aea8af14ed9e08f1595\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\bec85110441e2163732b2db102b203f3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\bd3f35815d77c690eac07e7b2fb3a34f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\bfcf7c6cbbfcc7b0f503a1ccc30b70d5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\9be873a1290f5c6032b9382f1997e965\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\a0eb012e7231007fc2d80a7254d3959b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\e54b440ab9c8c581dc094f50548307bb\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\438737b2f89e39c41f27b41904723d39\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\5b3445d0f9d1f5392bfe1463c1d3951e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\e910dd0629a018616c29528eb62b9c45\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\226f0af02b2114eb208ac08a7c4f5df0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\e999255e05c8e91967d6309f8091e0a4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\454e22032614215eabcb94e73c7bd0bd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e16ba97264962b584a0cb8246c5fbea2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2eeaf979fbe544b516ceb01ee89e4726\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\d3358e6e5c0d922d969d103fba66149f\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\59f08e551bb02cc2a6810af5538a76a9\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\78ef089b70b7e7089f060b41ba7cbbc8\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\1698e539346d6c57e32cb876bb8b359a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\5f63248aef28f2ea821780cbeb393ff9\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\96310ed5741e1803504f0f28033857a7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\614e3fe334fab6825b64714939d99370\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\2bbb26600225f00f7aff1518572bd408\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\148c7685736998ce595df9ab8b954ee3\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\2503f72fae48fb64d18410cfedcf6ed4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\eca9c19f8ec1161f7d64d99213374ead\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\513c498b9a3ba8353b45f56e6a7724cd\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8d0c6edf5159d9c8429f88f571d96a66\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\ae2ce6c89ae956126ebde4ccb5cb0883\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\94902b59c3babda8e5a3120c0b17b9a0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\4a656d7ea0f939141f75a13582ddbbe3\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\c199e02f4d7d3545da16d8267fb1bcfa\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\b2cd22435b4e5899f46754d27b968e0d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\df0a4249259a7459ed1b0b2eec740159\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\422387acabe00f8c5a7b9b4dc2002db0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\6a863c7322cb0266852b3b15b392d89c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\8fa56a62e60ab0a6ece03615e0138c82\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\111554ef73e616eea7a3095293eafe56\AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\b6ba678c759025f12b179233e2f8df82\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+	package
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:3:5-25
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-67
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-67
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:6:5-77
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:6:22-75
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:11:5-75
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:11:22-72
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:12:22-71
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:14:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:17:5-81
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:18:5-79
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:18:22-76
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:19:5-65
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:19:22-62
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:20:5-72
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:20:22-69
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:21:5-72
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:21:22-69
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:22:5-73
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:22:22-70
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:23:5-80
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:23:22-77
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:25:5-81
+MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-81
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:5-81
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:25:22-78
+application
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:29:5-47:19
+MERGED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-21:19
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-45:19
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:5-45:19
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\8b3d0bb88865f50c87c3871be9fcbce5\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\8b3d0bb88865f50c87c3871be9fcbce5\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\e291bf99913f76771c056da2eff12b96\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\e291bf99913f76771c056da2eff12b96\AndroidManifest.xml:22:5-20
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\0826368ed3a24ffbbdcb5f04b0d1bad4\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\0826368ed3a24ffbbdcb5f04b0d1bad4\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\d5a84f745f03d487b5d4eaedfcb2908f\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\d5a84f745f03d487b5d4eaedfcb2908f\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\5d951076cc3ceb45cab1b84c49b6ae9f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\5d951076cc3ceb45cab1b84c49b6ae9f\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\b07465f6d3db4995e4d11f27851ec0b3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\b07465f6d3db4995e4d11f27851ec0b3\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\c7a432098b7414cf6a4f43647e115f42\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\c7a432098b7414cf6a4f43647e115f42\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\78ef089b70b7e7089f060b41ba7cbbc8\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\78ef089b70b7e7089f060b41ba7cbbc8\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\148c7685736998ce595df9ab8b954ee3\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\148c7685736998ce595df9ab8b954ee3\AndroidManifest.xml:24:5-25:19
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\111554ef73e616eea7a3095293eafe56\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\111554ef73e616eea7a3095293eafe56\AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\78ef089b70b7e7089f060b41ba7cbbc8\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:31:7-39
+	android:roundIcon
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:33:7-52
+	android:icon
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:32:7-41
+	android:allowBackup
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:34:7-34
+	android:theme
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:35:7-38
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:30:7-38
+activity#com.wetube.MainActivity
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:36:7-45:18
+	android:label
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:38:9-41
+	android:windowSoftInputMode
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:40:9-51
+	android:configChanges
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:39:9-79
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:37:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:41:9-44:25
+action#android.intent.action.MAIN
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:42:13-65
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:42:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:43:13-73
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:43:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:46:7-84
+	android:name
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:46:17-81
+uses-sdk
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-video\android-exoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-video] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-video\android-exoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_masked-view] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-full-screen] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-full-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-full-screen] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-full-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:react-native-gesture-handler] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-safe-area-context] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-safe-area-context\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-youtube] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-youtube\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-youtube] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-youtube\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\8b3d0bb88865f50c87c3871be9fcbce5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.61.5] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.61.5.aar\8b3d0bb88865f50c87c3871be9fcbce5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\e291bf99913f76771c056da2eff12b96\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\e291bf99913f76771c056da2eff12b96\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\047214addb6619ff6914d2d0a7344e25\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\appcompat-1.1.0.aar\047214addb6619ff6914d2d0a7344e25\AndroidManifest.xml:20:5-22:41
+MERGED from [:expo-app-loader-provider] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-error-recovery] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-error-recovery\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\56b6504f1a7c1f165e0da70385257ca1\AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r245459] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\android-jsc-r245459.aar\56b6504f1a7c1f165e0da70385257ca1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\exoplayer-2.9.3.aar\7f29b70f3cc1b8fdae246d5c18c19b52\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\exoplayer-2.9.3.aar\7f29b70f3cc1b8fdae246d5c18c19b52\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-extension-okhttp-2.9.3.aar\d0c5fdb986d71e6da1d67ed241e6739d\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:extension-okhttp:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-extension-okhttp-2.9.3.aar\d0c5fdb986d71e6da1d67ed241e6739d\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-dash-2.9.3.aar\22e10c130fb3b20ce23b2834839fe8ee\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-dash-2.9.3.aar\22e10c130fb3b20ce23b2834839fe8ee\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-hls-2.9.3.aar\4d721be5d4c71fa2bd617bc7dff63019\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-hls-2.9.3.aar\4d721be5d4c71fa2bd617bc7dff63019\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-smoothstreaming-2.9.3.aar\8af7cbb4064096935c2ee5cf249f7266\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-smoothstreaming-2.9.3.aar\8af7cbb4064096935c2ee5cf249f7266\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-ui-2.9.3.aar\197f69c5e5e51a522682d1110050c48e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-ui-2.9.3.aar\197f69c5e5e51a522682d1110050c48e\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.3.aar\6f5b10152cd4e581fd2ef683720c0e46\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.3.aar\6f5b10152cd4e581fd2ef683720c0e46\AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\0826368ed3a24ffbbdcb5f04b0d1bad4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\0826368ed3a24ffbbdcb5f04b0d1bad4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\d5a84f745f03d487b5d4eaedfcb2908f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\d5a84f745f03d487b5d4eaedfcb2908f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\5d951076cc3ceb45cab1b84c49b6ae9f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\5d951076cc3ceb45cab1b84c49b6ae9f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\b07465f6d3db4995e4d11f27851ec0b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\b07465f6d3db4995e4d11f27851ec0b3\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\c7a432098b7414cf6a4f43647e115f42\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\c7a432098b7414cf6a4f43647e115f42\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\b78846d197d94dd412fa02596dd53777\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\b78846d197d94dd412fa02596dd53777\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\81f0c9510bf11210ff55af2818ac8763\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\81f0c9510bf11210ff55af2818ac8763\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\7e9fe2fcfa3d3ec9c4422790abe24f38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\7e9fe2fcfa3d3ec9c4422790abe24f38\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\469c170723720033a91319d3451990aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\469c170723720033a91319d3451990aa\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\9e9e1103ab5b3aea8af14ed9e08f1595\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\9e9e1103ab5b3aea8af14ed9e08f1595\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\bec85110441e2163732b2db102b203f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\bec85110441e2163732b2db102b203f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\bd3f35815d77c690eac07e7b2fb3a34f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\bd3f35815d77c690eac07e7b2fb3a34f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\bfcf7c6cbbfcc7b0f503a1ccc30b70d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\bfcf7c6cbbfcc7b0f503a1ccc30b70d5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\9be873a1290f5c6032b9382f1997e965\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\9be873a1290f5c6032b9382f1997e965\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\a0eb012e7231007fc2d80a7254d3959b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\appcompat-resources-1.1.0.aar\a0eb012e7231007fc2d80a7254d3959b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\e54b440ab9c8c581dc094f50548307bb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.1.0.aar\e54b440ab9c8c581dc094f50548307bb\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\438737b2f89e39c41f27b41904723d39\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\438737b2f89e39c41f27b41904723d39\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\5b3445d0f9d1f5392bfe1463c1d3951e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\fragment-1.1.0.aar\5b3445d0f9d1f5392bfe1463c1d3951e\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\e910dd0629a018616c29528eb62b9c45\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\e910dd0629a018616c29528eb62b9c45\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\226f0af02b2114eb208ac08a7c4f5df0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\226f0af02b2114eb208ac08a7c4f5df0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\e999255e05c8e91967d6309f8091e0a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\e999255e05c8e91967d6309f8091e0a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\454e22032614215eabcb94e73c7bd0bd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\454e22032614215eabcb94e73c7bd0bd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e16ba97264962b584a0cb8246c5fbea2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\e16ba97264962b584a0cb8246c5fbea2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2eeaf979fbe544b516ceb01ee89e4726\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\2eeaf979fbe544b516ceb01ee89e4726\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\d3358e6e5c0d922d969d103fba66149f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\activity-1.0.0.aar\d3358e6e5c0d922d969d103fba66149f\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\59f08e551bb02cc2a6810af5538a76a9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.1.0.aar\59f08e551bb02cc2a6810af5538a76a9\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\78ef089b70b7e7089f060b41ba7cbbc8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-1.1.0.aar\78ef089b70b7e7089f060b41ba7cbbc8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\1698e539346d6c57e32cb876bb8b359a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\1698e539346d6c57e32cb876bb8b359a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\5f63248aef28f2ea821780cbeb393ff9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\5f63248aef28f2ea821780cbeb393ff9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\96310ed5741e1803504f0f28033857a7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\96310ed5741e1803504f0f28033857a7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\614e3fe334fab6825b64714939d99370\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\614e3fe334fab6825b64714939d99370\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\2bbb26600225f00f7aff1518572bd408\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\2bbb26600225f00f7aff1518572bd408\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\148c7685736998ce595df9ab8b954ee3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.1.0.aar\148c7685736998ce595df9ab8b954ee3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\2503f72fae48fb64d18410cfedcf6ed4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.1.0.aar\2503f72fae48fb64d18410cfedcf6ed4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\eca9c19f8ec1161f7d64d99213374ead\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.1.0.aar\eca9c19f8ec1161f7d64d99213374ead\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\513c498b9a3ba8353b45f56e6a7724cd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\savedstate-1.0.0.aar\513c498b9a3ba8353b45f56e6a7724cd\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8d0c6edf5159d9c8429f88f571d96a66\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\8d0c6edf5159d9c8429f88f571d96a66\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\ae2ce6c89ae956126ebde4ccb5cb0883\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\ae2ce6c89ae956126ebde4ccb5cb0883\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\94902b59c3babda8e5a3120c0b17b9a0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\94902b59c3babda8e5a3120c0b17b9a0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\4a656d7ea0f939141f75a13582ddbbe3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-2.0.0.aar\4a656d7ea0f939141f75a13582ddbbe3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\c199e02f4d7d3545da16d8267fb1bcfa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\fresco-2.0.0.aar\c199e02f4d7d3545da16d8267fb1bcfa\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\b2cd22435b4e5899f46754d27b968e0d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\drawee-2.0.0.aar\b2cd22435b4e5899f46754d27b968e0d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\df0a4249259a7459ed1b0b2eec740159\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\nativeimagefilters-2.0.0.aar\df0a4249259a7459ed1b0b2eec740159\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\422387acabe00f8c5a7b9b4dc2002db0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-2.0.0.aar\422387acabe00f8c5a7b9b4dc2002db0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\6a863c7322cb0266852b3b15b392d89c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\nativeimagetranscoder-2.0.0.aar\6a863c7322cb0266852b3b15b392d89c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\8fa56a62e60ab0a6ece03615e0138c82\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-2.0.0.aar\8fa56a62e60ab0a6ece03615e0138c82\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\111554ef73e616eea7a3095293eafe56\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\111554ef73e616eea7a3095293eafe56\AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\b6ba678c759025f12b179233e2f8df82\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.0.0] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-2.0.0.aar\b6ba678c759025f12b179233e2f8df82\AndroidManifest.xml:5:5-7:41
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+	android:authorities
+		ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-64
+	android:exported
+		ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-83
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:63
+	android:resource
+		ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-60
+	android:name
+		ADDED from [:react-native-webview] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-webview\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:5-68
+	android:name
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.3.aar\6f5b10152cd4e581fd2ef683720c0e46\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.9.3] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-exoplayer-core-2.9.3.aar\6f5b10152cd4e581fd2ef683720c0e46\AndroidManifest.xml:24:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:22-73
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-44:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\rn-fetch-blob\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-62
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.0.1.aar\0c54ccb9f5d43c035fcbb408e06eff28\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.0.1.aar\38b8a46acaa8f48942e4750d7ae14ae4\AndroidManifest.xml:24:13-58
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Egzoni\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\e7c919f9f516e706a99a50ee704b4ee8\AndroidManifest.xml:26:13-120

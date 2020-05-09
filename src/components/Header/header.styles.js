@@ -9,7 +9,6 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingTop: 40,
-    minHeight: 80,
     maxHeight: 80,
     width: '100%',
     // borderWidth: 1, borderColor: 'red'

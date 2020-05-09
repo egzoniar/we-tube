@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
 import { View } from 'react-native'
 import { styles } from './home.styles'
-
 import { youtubeApiUrl } from '../../api/youtube-v3'
+
+import Header from '../../components/Header/Header'
 
 import VideoList from '../../components/Video-List/VideoList'
 
@@ -31,20 +32,17 @@ const HomeScreen = props => {
   useEffect(() => {
     if (loadedVideos.length > 0) {
       if (searchTerm === '') {
-        console.log('load from memory')
         setVideos(loadedVideos)
       }
       else fetchHomeData()
     }
     else {
-      console.log('fetch from api...')
       fetchHomeData()
     }
   }, [searchTerm])
 
   return (
     <View style={styles.container} >
-      {/* <Header title="WeTube" /> */}
       <VideoList
         nav={props.navigation}
         videos={videos} />

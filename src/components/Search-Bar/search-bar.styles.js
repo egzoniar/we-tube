@@ -13,7 +13,8 @@ const styles = StyleSheet.create({
   searchInput: {
     flex: 1,
     color: 'white',
-    fontSize: 23,
+    fontSize: 20,
+    padding: 5,
     fontWeight: 'bold',
     // borderWidth: 1, borderColor: 'yellow'
   }
