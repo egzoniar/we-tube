@@ -1,55 +1,29 @@
 import React, { useEffect, useState } from 'react';
-import { Text, View } from 'react-native';
-import { WebView } from 'react-native-webview'
+import { Text, Button, View, Image } from 'react-native';
 import styles from './player.styles'
 import EmptyList from '../../components/EmptyList'
 import RNFS from 'react-native-fs'
-import Video from 'react-native-video'
+import OnlinePlayer from '../../components/Video-Player/OnlinePlayer';
+import OfflinePlayer from '../../components/Video-Player/OfflinePlayer';
 
 const PlayerScreen = ({ route }) => {
-  if (!route.params)
-    route.params = { videoId: '' }
+  const { params } = route
 
-  const [id, setId] = useState('')
-  const [file, setFile] = useState({ name: '', path: '' });
+  const [item, setItem] = useState({})
 
   useEffect(() => {
-    const { videoId } = route.params
-    setId(videoId)
-    // loadVideo()
-    console.log(videoId)
-  }, [route.params.videoId])
+    if (params.videoId !== '')
+      setItem({ ...params })
+  }, [params.videoId])
 
-  const URL = 'https://file-examples.com/wp-content/uploads/2017/04/file_example_MP4_640_3MG.mp4'
-  const filename = "myfile.mp4"
+  const BASE_PATH = RNFS.DownloadDirectoryPath
+  const URL = 'https://wetubed.herokuapp.com/download?videoId='
+  const filename = "othervideo.mp4"
 
-  const loadVideo = () => {
-    let path_name = RNFS.DownloadDirectoryPath + '/' + filename;
-
-    RNFS.exists(path_name).then(exists => {
-      if (exists) {
-        console.log("Already downloaded in: " + path_name);
-      }
-      else {
-        console.log('Downloading...')
-        RNFS.downloadFile({
-          fromUrl: URL,
-          toFile: path_name.replace(/%20/g, "_"),
-          background: true
-        })
-          .promise.then(res => {
-            console.log("File Downloaded", res);
-          })
-          .catch(err => {
-            console.log("err downloadFile", err);
-          });
-      }
-    });
-  }
 
   const getVideoUrl = (url, filename) => {
     return new Promise((resolve, reject) => {
-      RNFS.readDir(RNFS.DownloadDirectoryPath)
+      RNFS.readDir(BASE_PATH)
         .then(result => {
           result.forEach(element => {
             if (element.name == filename.replace(/%20/g, "_")) {
@@ -63,8 +37,8 @@ const PlayerScreen = ({ route }) => {
     });
   };
 
-  const call = (url, filename) => {
-    getVideoUrl(url, filename)
+  const call = (url) => {
+    getVideoUrl(url + id, filename)
       .then(res => {
         setFile({ name: filename, path: res })
       })
@@ -75,24 +49,16 @@ const PlayerScreen = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      {/* {(file.path !== '') ?
-        <View style={{ width: '100%' }}>
-          <Video
-            playInBackground={true}
-            resizeMode="contain"
-            style={{ width: '100%', height: '40%', borderWidth: 1, borderColor: 'red' }}
-            source={{ uri: file.path }} />
-          <Image style={{ width: 300, height: 150, borderWidth: 1, borderColor: 'red' }} source={{ uri: file.path }} />
-        </View>
-        : null}
-      <Text style={styles.text}>{file.title}</Text>
-      <Button title="Load file from storage" onPress={() => call(URL, filename)} /> */}
-      {id ? <WebView
-        style={styles.webView}
-        originWhitelist={['https://www.youtube.com/embed/*']}
-        source={{ uri: "https://www.youtube.com/embed/" + id }}
-        startInLoadingState={true}
-      /> : <EmptyList text='home' />}
+      {
+        (params.videoId === '')
+          ? <EmptyList text='home' />
+          : (params.videoItem.fromHome)
+            ? <OnlinePlayer
+              item={params.videoItem}
+              videoId={params.videoId}
+            />
+            : <OfflinePlayer />
+      }
     </View>
   )
 

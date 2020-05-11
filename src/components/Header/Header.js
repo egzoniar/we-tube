@@ -8,8 +8,8 @@ import SearchBar from '../Search-Bar/SearchBar'
 
 import styles from './header.styles'
 
-const Header = ({ title, setSearchTerm, searchTerm }) => {
-
+const Header = props => {
+  const { title, setSearchTerm, searchTerm, search } = props
   const [searchActive, setSearchActive] = useState(false)
   const [text, setText] = useState('')
 
@@ -37,7 +37,7 @@ const Header = ({ title, setSearchTerm, searchTerm }) => {
         <View style={styles.titleWrapper}>
           <Text style={styles.title}>{title}</Text>
         </View>}
-      <View style={styles.rightIcons}>
+      {(search) ? <View style={styles.rightIcons}>
         <SearchBar
           searchActive={searchActive}
           toggle={toggleSearchBar}
@@ -45,7 +45,7 @@ const Header = ({ title, setSearchTerm, searchTerm }) => {
           setSearchTerm={() => setSearchTerm(text)}
           handleSearchText={handleSearchText}
         />
-      </View>
+      </View> : null}
     </View>
   )
 }

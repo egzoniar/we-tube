@@ -2,14 +2,14 @@ import React, { useRef, useEffect, useState } from 'react'
 import { connect } from 'react-redux';
 import { FlatList } from 'react-native-gesture-handler';
 import { useFocusEffect } from '@react-navigation/native'
-import Header from '../../components/Header/Header';
+import Header from '../Header/Header';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
-import HomeItem from '../../components/Home-Item/HomeItem'
+import HomeItem from '../Home-Item/HomeItem'
 import { toggleCanScrollToTop, toggleScrollToTop } from '../../redux/home/home.actions';
 
 
 
-const VideoList = props => {
+const HomeList = props => {
   const { videos, canScrollToTop, setCanScrollToTop, scrollToTop, setScrollToTop } = props
   const flatListRef = useRef();
 
@@ -25,9 +25,16 @@ const VideoList = props => {
       imageUrl: thumbnails.high.url
     }
 
+    const videoItem = {
+      fromHome: true,
+      videoId, title,
+      videoPath: '',
+      thumbPath: ''
+    }
+
     return (
       <TouchableWithoutFeedback
-        onPress={() => navigation.navigate('Player', { videoId })}>
+        onPress={() => navigation.navigate('Player', { videoId, videoItem })}>
         <HomeItem {...prps} />
       </TouchableWithoutFeedback>
     )
@@ -48,7 +55,6 @@ const VideoList = props => {
         // Do something when the screen is unfocused
         // Useful for cleanup functions
         setCanScrollToTop(false)
-        console.log('VideoList: unfocused')
       };
     }, [])
   );
@@ -66,7 +72,7 @@ const VideoList = props => {
       showsVerticalScrollIndicator={false}
       data={videos}
       // keyExtractor={item => item.id}
-      ListHeaderComponent={() => <Header title="WeTube" />}
+      ListHeaderComponent={() => <Header title="WeTube" search={true} />}
       keyExtractor={item => item.id.videoId}
       renderItem={renderItem}
       ref={flatListRef}
@@ -85,4 +91,4 @@ const mapDispatchToProps = dispatch => ({
   setScrollToTop: () => dispatch(toggleScrollToTop())
 })
 
-export default connect(mapStateToProps, mapDispatchToProps)(VideoList)
+export default connect(mapStateToProps, mapDispatchToProps)(HomeList)

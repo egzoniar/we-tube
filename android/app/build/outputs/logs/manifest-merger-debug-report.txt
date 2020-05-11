@@ -9,6 +9,7 @@ MERGED from [:react-native-video] C:\Users\Egzoni\Desktop\youtube-clone\node_mod
 MERGED from [:expo-permissions] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-screens] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:unimodules-react-native-adapter] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_async-storage] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-community_masked-view] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
 MERGED from [:react-native-full-screen] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-full-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
 MERGED from [:react-native-gesture-handler] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -291,6 +292,8 @@ MERGED from [:react-native-screens] C:\Users\Egzoni\Desktop\youtube-clone\node_m
 MERGED from [:react-native-screens] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-react-native-adapter] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:unimodules-react-native-adapter] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-community_async-storage] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_async-storage] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\async-storage\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-community_masked-view] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\@react-native-community\masked-view\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
 MERGED from [:react-native-full-screen] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-full-screen\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41

@@ -4,11 +4,7 @@ import { View } from 'react-native'
 import { styles } from './home.styles'
 import { youtubeApiUrl } from '../../api/youtube-v3'
 
-import Header from '../../components/Header/Header'
-
-import VideoList from '../../components/Video-List/VideoList'
-
-import { DATA } from './home.data'
+import HomeList from '../../components/Home-List/HomeList'
 
 const HomeScreen = props => {
   const { searchTerm } = props
@@ -43,7 +39,7 @@ const HomeScreen = props => {
 
   return (
     <View style={styles.container} >
-      <VideoList
+      <HomeList
         nav={props.navigation}
         videos={videos} />
     </View>
