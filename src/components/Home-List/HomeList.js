@@ -6,14 +6,19 @@ import Header from '../Header/Header';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import HomeItem from '../Home-Item/HomeItem'
 import { toggleCanScrollToTop, toggleScrollToTop } from '../../redux/home/home.actions';
+import { setPlayerItem } from '../../redux/Player/player.actions'
 
 
 
 const HomeList = props => {
-  const { videos, canScrollToTop, setCanScrollToTop, scrollToTop, setScrollToTop } = props
+  const {
+    videos, canScrollToTop, setCanScrollToTop,
+    scrollToTop, setScrollToTop, setThisPlayerItem
+  } = props
+
   const flatListRef = useRef();
 
-  const renderItem = ({ item, index }) => {
+  const renderItem = ({ item }) => {
     const navigation = props.nav
     const { channelTitle, title, thumbnails } = item.snippet
     const { videoId } = item.id
@@ -25,16 +30,14 @@ const HomeList = props => {
       imageUrl: thumbnails.high.url
     }
 
-    const videoItem = {
-      fromHome: true,
-      videoId, title,
-      videoPath: '',
-      thumbPath: ''
-    }
+    const videoItem = { online: true, videoId, title }
 
     return (
       <TouchableWithoutFeedback
-        onPress={() => navigation.navigate('Player', { videoId, videoItem })}>
+        onPress={() => {
+          setThisPlayerItem(videoItem)
+          navigation.navigate('Player')
+        }}>
         <HomeItem {...prps} />
       </TouchableWithoutFeedback>
     )
@@ -88,7 +91,8 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => ({
   setCanScrollToTop: bool => dispatch(toggleCanScrollToTop(bool)),
-  setScrollToTop: () => dispatch(toggleScrollToTop())
+  setScrollToTop: () => dispatch(toggleScrollToTop()),
+  setThisPlayerItem: item => dispatch(setPlayerItem(item))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(HomeList)

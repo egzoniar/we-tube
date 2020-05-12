@@ -32,7 +32,7 @@ const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScroll
           });
 
           if (!isFocused && !event.defaultPrevented) {
-            navigation.navigate(route.name, { videoId: '' });
+            navigation.navigate(route.name);
           }
           else if (route.name === 'Home') {
             if (canScrollToTop)

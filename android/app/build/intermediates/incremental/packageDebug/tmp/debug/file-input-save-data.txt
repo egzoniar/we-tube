@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon May 11 05:11:50 CEST 2020
+#Tue May 12 01:16:59 CEST 2020
 56.path=lib/x86/libnative-filters.so
 5.base=C\:\\Users\\Egzoni\\Desktop\\youtube-clone\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=C\:\\Users\\Egzoni\\Desktop\\youtube-clone\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

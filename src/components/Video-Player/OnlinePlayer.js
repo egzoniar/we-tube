@@ -8,11 +8,11 @@ const { width } = Dimensions.get('window')
 const BASE_PATH = RNFS.ExternalStorageDirectoryPath + '/WeTube/'
 
 const OnlinePlayer = props => {
-  const { videoId, item } = props
+  const { item } = props
 
   const filename = item.title + ".mp4"
-  const youtubeURL = 'https://www.youtube.com/embed/' + videoId
-  const downloadURL = 'https://wetubed.herokuapp.com/download?videoId=' + videoId
+  const youtubeURL = 'https://www.youtube.com/embed/' + item.videoId
+  const downloadURL = 'https://wetubed.herokuapp.com/download?videoId=' + item.videoId
 
   const [downloading, setDownloading] = useState(false)
   const [downloaded, setDownloaded] = useState(false)

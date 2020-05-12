@@ -1,16 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { Text, View } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage'
-import { FlatList } from 'react-native-gesture-handler';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import Header from '../../components/Header/Header';
 
 import { styles } from './library.styles'
 import EmptyList from '../../components/EmptyList'
-
-import HomeItem from '../../components/Home-Item/HomeItem'
-
-import { DATA } from '../Home/home.data'
+import LibraryList from '../../components/Library-List/LibraryList';
 
 const LibraryScreen = props => {
 
@@ -19,23 +13,25 @@ const LibraryScreen = props => {
   const getVideos = async () => {
     const videos = await AsyncStorage.getItem('savedVideos')
 
-    if (videos === null) setVideoArr([])
-    else setVideoArr(JSON.parse(videos))
-    console.log(JSON.parse(videos))
+    if (videos !== null) {
+      const vtemp = JSON.parse(videos)
+      if (vtemp.length !== videoArr.length)
+        setVideoArr(vtemp)
+    }
   }
 
   useEffect(() => {
+    // console.log("hini")
     getVideos()
-  }, [])
+  })
 
   return (
     <View style={styles.container}>
-      {(videoArr.length === 0) ? <EmptyList />
-        : videoArr.map(v => (
-          <View>
-            <Text style={{ fontSize: 25, color: '#fff' }}>{v.title}</Text>
-          </View>
-        ))
+      {(videoArr.length === 0)
+        ? <EmptyList />
+        : <LibraryList
+          nav={props.navigation}
+          videos={videoArr} />
       }
     </View>
   )
