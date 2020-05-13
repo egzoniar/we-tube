@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { View, TextInput } from 'react-native'
 import Icon from '@expo/vector-icons/MaterialIcons';
 import { TouchableOpacity } from 'react-native-gesture-handler';
@@ -10,11 +10,6 @@ const { headerIconSize } = StyleGuide.icons
 
 const SearchBar = props => {
   const { toggle, searchActive, handleSearchText, text, setSearchTerm } = props
-
-  // useEffect(() => {
-  //   setSearchTerm('Tyrone magnus')
-  //   console.log('search-bar mounted')
-  // }, [])
 
   return (
     <View style={styles.searchContainer}>

@@ -20,22 +20,22 @@ const HomeList = props => {
 
   const renderItem = ({ item }) => {
     const navigation = props.nav
-    const { channelTitle, title, thumbnails } = item.snippet
-    const { videoId } = item.id
 
     const prps = {
       navigate: navigation.navigate,
-      title, videoId,
-      channel_name: channelTitle,
-      imageUrl: thumbnails.high.url
+      item
     }
 
-    const videoItem = { online: true, videoId, title }
+    const playerItem = {
+      online: true,
+      videoId: item.videoId,
+      title: item.title
+    }
 
     return (
       <TouchableWithoutFeedback
         onPress={() => {
-          setThisPlayerItem(videoItem)
+          setThisPlayerItem(playerItem)
           navigation.navigate('Player')
         }}>
         <HomeItem {...prps} />
@@ -76,7 +76,7 @@ const HomeList = props => {
       data={videos}
       // keyExtractor={item => item.id}
       ListHeaderComponent={() => <Header title="WeTube" search={true} />}
-      keyExtractor={item => item.id.videoId}
+      keyExtractor={item => item.videoId}
       renderItem={renderItem}
       ref={flatListRef}
       onScroll={e => toggleTopArrow(e.nativeEvent.contentOffset.y)}

@@ -1,9 +1,11 @@
 import React from 'react'
 import { Button, View, Text, StyleSheet, Dimensions } from 'react-native'
+import { useFocusEffect } from '@react-navigation/native'
 import Video from 'react-native-video'
 
 const OfflinePlayer = props => {
   const { item } = props
+
 
   return (
     <View style={styles.container}>
@@ -35,7 +37,10 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     position: 'absolute',
-    top: 0
+    top: 0, left: 5,
+    width: '95%',
+    opacity: .6,
+    // borderWidth: 1, borderColor: 'red'
   }
 })
 

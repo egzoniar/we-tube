@@ -1,15 +1,23 @@
 import React from 'react'
 import { connect } from 'react-redux';
 import { View, TouchableOpacity } from 'react-native';
-import Icon from '@expo/vector-icons/MaterialCommunityIcons'
+// import Icon from '@expo/vector-icons/MaterialCommunityIcons'
+import Icon from 'react-native-vector-icons/MaterialCommunityIcons'
 
 import styles from './floating-bar.styles'
 
 import StyleGuide from '../../components/StyleGuide'
 import { toggleScrollToTop } from '../../redux/home/home.actions';
+import { setStartDownloading } from '../../redux/Player/player.actions'
 const palette = StyleGuide.palette
 
-const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScrollToTop }) => {
+const FloatingBar = props => {
+  const {
+    state, descriptors,
+    navigation, canScrollToTop,
+    setScrollToTop, canDownload,
+    setStartDownloading
+  } = props
 
   return (
     <View style={styles.container}>
@@ -46,9 +54,9 @@ const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScroll
           case 'Home': iconName = 'home'; break;
           case 'Library': iconName = 'folder'; break;
           case 'Player': iconName = 'airplay'; break;
-          // case 'Save': iconName = 'cloud-download'; break;
+          case 'Save': iconName = 'cloud-download'; break;
           // case 'GoUp': iconName = 'chevron-up';
-          case 'GoUp': iconName = 'arrow-up-thick';
+          // case 'GoUp': iconName = 'arrow-up-thick';
         }
 
         return (
@@ -65,6 +73,13 @@ const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScroll
           </TouchableOpacity>
         );
       })}
+      {(canDownload)
+        ? <TouchableOpacity
+          accessibilityRole="button"
+          onPress={() => setStartDownloading(true)}
+          style={{ ...styles.tab, backgroundColor: palette.accent2 }} >
+          <Icon name='cloud-download' size={22} style={{ ...styles.icon, color: palette.accent3 }} />
+        </TouchableOpacity> : null}
       {/* {(canScrollToTop) ? <TouchableOpacity
         accessibilityRole="button"
         onPress={() => setScrollToTop()}
@@ -78,10 +93,12 @@ const FloatingBar = ({ state, descriptors, navigation, canScrollToTop, setScroll
 
 const mapStateToProps = state => ({
   canScrollToTop: state.home.canScrollToTop,
+  canDownload: state.player.canDownload
 })
 
 const mapDispatchToProps = dipatch => ({
-  setScrollToTop: () => dipatch(toggleScrollToTop())
+  setScrollToTop: () => dipatch(toggleScrollToTop()),
+  setStartDownloading: bool => dipatch(setStartDownloading(bool))
 })
 
 export default connect(mapStateToProps, mapDispatchToProps)(FloatingBar);

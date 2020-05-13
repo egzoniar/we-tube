@@ -1,7 +1,9 @@
 import PlayerActionTypes from './player.types'
 
 const INITIAL_STATE = {
-  playerItem: {}
+  playerItem: {},
+  canDownload: false,
+  startDownloading: false
 }
 
 const playerReducer = (state = INITIAL_STATE, action) => {
@@ -11,7 +13,16 @@ const playerReducer = (state = INITIAL_STATE, action) => {
         ...state,
         playerItem: action.payload
       }
-
+    case PlayerActionTypes.SET_CAN_DOWNLOAD:
+      return {
+        ...state,
+        canDownload: action.payload
+      }
+    case PlayerActionTypes.SET_START_DOWNLOADING:
+      return {
+        ...state,
+        startDownloading: action.payload
+      }
     default: return state
   }
 }

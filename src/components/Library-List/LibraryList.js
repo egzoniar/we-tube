@@ -1,32 +1,22 @@
 import React from 'react'
 import { View, Text, FlatList } from 'react-native'
-import { connect } from 'react-redux';
 import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import Header from '../Header/Header'
 import LibraryItem from '../Library-Item/LibraryItem'
-import { setPlayerItem } from '../../redux/Player/player.actions'
 
 const LibraryList = props => {
-  const { videos, nav, setThisPlayerItem } = props
+  const { videos, nav } = props
 
   const renderItem = ({ item }) => {
-    const { videoId, title, videoPath, thumbPath } = item
+    const { videoId, title, videoPath } = item
 
     const videoItem = {
       online: false,
       videoId, title,
-      videoPath, thumbPath
+      videoPath
     }
 
-    return (
-      <TouchableWithoutFeedback
-        onPress={() => {
-          setThisPlayerItem(videoItem)
-          nav.navigate('Player')
-        }}>
-        <LibraryItem {...item} />
-      </TouchableWithoutFeedback>
-    )
+    return (<LibraryItem videoItem={videoItem} nav={nav} />)
   }
 
   return (
@@ -42,8 +32,6 @@ const LibraryList = props => {
   )
 }
 
-const mapDispatchToProps = dispatch => ({
-  setThisPlayerItem: item => dispatch(setPlayerItem(item))
-})
 
-export default connect(null, mapDispatchToProps)(LibraryList)
+
+export default LibraryList

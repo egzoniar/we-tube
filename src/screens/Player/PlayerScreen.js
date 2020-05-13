@@ -10,9 +10,6 @@ import OfflinePlayer from '../../components/Video-Player/OfflinePlayer';
 const PlayerScreen = props => {
   const { playerItem } = props
 
-  const [playing, setPlaying] = useState(false)
-  const [item, setItem] = useState({})
-
   return (
     <View style={styles.container}>
       {

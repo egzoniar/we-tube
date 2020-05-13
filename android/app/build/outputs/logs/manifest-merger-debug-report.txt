@@ -4,6 +4,7 @@ ADDED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidMan
 INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
 INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
 INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml:1:1-49:12
+MERGED from [:react-native-vector-icons] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
 MERGED from [:react-native-video] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-video\android-exoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [:expo-permissions] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
@@ -282,6 +283,8 @@ uses-sdk
 INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\Egzoni\Desktop\youtube-clone\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-vector-icons] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-fs] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-fs\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
 MERGED from [:react-native-video] C:\Users\Egzoni\Desktop\youtube-clone\node_modules\react-native-video\android-exoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41

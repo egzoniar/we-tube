@@ -3,12 +3,13 @@ import StyleGuide from '../StyleGuide'
 const palette = StyleGuide.palette
 
 export const styles = StyleSheet.create({
-  wrapper: {},
+  wrapper: {
+    paddingBottom: 40
+  },
   item: {
     borderWidth: 1,
     // borderColor: 'blue',
     paddingTop: 40,
-    paddingBottom: 60
   },
   channelTitle: {
     fontSize: 10,
@@ -27,4 +28,26 @@ export const styles = StyleSheet.create({
     letterSpacing: -1.5,
     color: palette.accent2
   },
+  deleteContainer: {
+    // borderWidth: 1, borderColor: 'red',
+    marginTop: 20,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    paddingHorizontal: 15
+  },
+  cancelButton: {
+    // borderWidth: 1, borderColor: 'red',
+    padding: 7
+  },
+  deleteButton: {
+    // borderWidth: 1, borderColor: 'red',
+    padding: 7
+  },
+  cancelText: {
+    color: palette.secondary
+  },
+  deleteText: {
+    color: palette.secondary
+  }
 })
